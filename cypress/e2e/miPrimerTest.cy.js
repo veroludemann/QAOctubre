@@ -20,7 +20,7 @@ describe('Registro de Usuario', () => {
   cy.get('[data-cy="input-password"]').type('Test1234!')
   cy.get('[data-cy="input-repetir-password"]').type('Test1234!')
   cy.get('[data-cy="btn-registrarse"]').click()
-  cy.wait(3000)
+  cy.wait(2000)
   })
 
 
