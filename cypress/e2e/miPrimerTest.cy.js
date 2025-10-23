@@ -21,6 +21,7 @@ describe('Registro de Usuario', () => {
   cy.get('[data-cy="input-repetir-password"]').type('Test1234!')
   cy.get('[data-cy="btn-registrarse"]').click()
   cy.wait(1000)
+  cy.get('[data-cy="input-nombres"]').should('have.value', 'Juan Carlos')
   })
 
 
