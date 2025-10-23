@@ -1,0 +1,20 @@
+# Node modules
+node_modules/
+
+# Environment files
+.env
+
+# macOS
+.DS_Store
+
+# Cypress downloads
+cypress/downloads/
+
+# Log files
+.log
+
+# Optional npm debug
+npm-debug.log*
+
+# Coverage
+coverage/
