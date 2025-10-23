@@ -10,6 +10,7 @@ function generarDNIRandom() {
   return dni.toString();
 }
 
+
 function generarTelefonoRandom() {
   // Genera un Numero de Telefono de 10 dígitos
   const numeroTelefono = Math.floor(Math.random() * 9000000000) + 1000000000;
@@ -42,6 +43,8 @@ beforeEach(() => {
     cy.get('[data-cy="input-password"]').type('Test1234!')
     cy.get('[data-cy="input-repetir-password"]').type('Test1234!')
     cy.get('[data-cy="btn-registrarse"]').click()
+
+ 
   })
 
   it('Wrong Path', () => {
