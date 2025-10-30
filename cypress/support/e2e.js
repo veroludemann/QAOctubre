@@ -15,4 +15,5 @@
 
 // Import commands.js using ES2015 syntax:
 import './commands'
-import './comandos_class6'
+import './comandosClase6'
+import './folderQa/users'
